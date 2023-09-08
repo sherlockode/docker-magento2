@@ -1,6 +1,6 @@
-FROM nginx:1.9
+FROM nginx:1.24
 
-MAINTAINER Nick Jones <nick@nicksays.co.uk>
+MAINTAINER Sherlockode <contact@sherlockode.fr>
 
 ADD etc/vhost.conf /etc/nginx/conf.d/default.conf
 COPY etc/certs/ /etc/nginx/ssl/
